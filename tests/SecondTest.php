@@ -3,7 +3,7 @@
 class SecondTest extends \PHPUnit\Framework\TestCase
 {
     
-    public function testString()
+    public function testAtrray()
     {
         $return = \App\Stuff::generateRandomStringArray();
         $this->assertIsArray($return);

@@ -9,10 +9,4 @@ class FirstTest extends \PHPUnit\Framework\TestCase
         $this->assertIsString($return);
     }
     
-    public function testAtrray()
-    {
-        $return = \App\Stuff::generateRandomStringArray();
-        $this->assertIsArray($return);
-    }
-    
 }
